@@ -17,24 +17,24 @@ The book is written for an audience that does digital signal processing but that
 
 •	We wrote the text and Python code (and predecessor Mathematica code) that we’re providing for this workshop in the Jupyter Notebook files, but we didn’t create the Anaconda / Jupyter Notebook world, which provides remarkable, diverse capabilities.
 
-o	Jupyter Notebook can be thought of as an enriched text editor, providing local code execution, including display of graphical products of your code.
+	o	Jupyter Notebook can be thought of as an enriched text editor, providing local code execution, including display of graphical products of your code.
 
-o	In our experience, the commands available in the ribbon at the top of the Jupyter Notebook window vary a little across PCs, even when all are running Windows 10. We don’t know the extent of this variation or what it depends on.
+	o	In our experience, the commands available in the ribbon at the top of the Jupyter Notebook window vary a little across PCs, even when all are running Windows 10. We don’t know the extent of this variation or what it depends on.
 
-o	Accordingly, you may find some of the commands we suggest in a different dropdown menu and/or labeled a bit differently than what’s in our instructions. Feel free to explore the menus. For example, there may or may not be a “Cell” command in that ribbon. If not, there may be a number of cell commands are under the Run button.
+	o	Accordingly, you may find some of the commands we suggest in a different dropdown menu and/or labeled a bit differently than what’s in our instructions. Feel free to explore the menus. For example, there may or may not be a “Cell” command in that ribbon. If not, there may be a number of cell commands are under the Run button.
 
-o	Before starting the Lessons, make a backup copy of all the files we’ve provided. If a Lesson file stops working, you can always start again with a clean file from your backup. Also, in some files, we ask you to alter code, add code, or enter an answer to a question. You may want to retain an original copy that doesn’t have those changes.
+	o	Before starting the Lessons, make a backup copy of all the files we’ve provided. If a Lesson file stops working, you can always start again with a clean file from your backup. Also, in some files, we ask you to alter code, add code, or enter an answer to a question. You may want to retain an original copy that doesn’t have those changes.
 
 •	If you want to exit and later resume where you were in a Jupyter Notebook:
 
-o	Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
+	o	Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
 
-o	When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell.
-	That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
+	o	When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell.
+		That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
 
 •	You’re welcome to edit our code and re-run a cell, for example to plot a different frequency.
 
-o	But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
+	o	But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
 
 •	If your Jupyter Notebook Web page becomes generally or selectively unresponsive, try each of these, in this order:
 
@@ -45,7 +45,7 @@ o	But note that changing the computation or even the value of a variable that’
 # Installing Anaconda
 •	Anaconda is a Web-browser-based environment for writing and running code. (Anaconda is also a commercial company that we understand provides Anaconda3 and its support for Jupyter Notebook for free to users like us. We have no affiliation with the company.) You can store Jupyter Notebook files (*.ipynb) on your local computer or wherever you want. This workshop assumes that you’re storing the files on the laptop that you bring to the workshop.
 
-o	Some Web postings note that, at least on Windows, attempting to install Anaconda on a computer that has a previous Anaconda installation may fail and that the previous installation may be difficult to fully remove to clear the way for a new installation. https://docs.anaconda.com/navigator/uninstall/ provides uninstall instructions, but in our experience, and as noted in Web comments, that didn’t work. What worked for us involved:
+	o	Some Web postings note that, at least on Windows, attempting to install Anaconda on a computer that has a previous Anaconda installation may fail and that the previous installation may 	be difficult to fully remove to clear the way for a new installation. https://docs.anaconda.com/navigator/uninstall/ provides uninstall instructions, but in our experience, and as noted in Web 	comments, that didn’t work. What worked for us involved:
 
 	conventional uninstall of Anaconda3
 	manual removal of some leftover directories under C:\users\<username> per https://docs.anaconda.com/reference/troubleshooting/: scroll down to Files left behind after uninstalling Anaconda on Windows – we found and deleted some of the directories listed there plus a few more than seemed relevant; and
