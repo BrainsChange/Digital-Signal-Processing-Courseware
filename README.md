@@ -12,18 +12,23 @@ The authors of this courseware are indebted to Prof. Bruce Carpenter (University
 The book is written for an audience that does digital signal processing but that do not have a strong math or engineering background.
 
 •	For each lesson, be sure to do the modules in order: Basics, Tutorial, Give It a Try, Literacy.
+
 •	When you load each Jupyter Notebook *.ipynb file, select and run the first code cell (right after the “Setup” text cell). It runs some initialization code that later code will need, so do that before you run later cells.
+
 •	We wrote the text and Python code (and predecessor Mathematica code) that we’re providing for this workshop in the Jupyter Notebook files, but we didn’t create the Anaconda / Jupyter Notebook world, which provides remarkable, diverse capabilities.
+
 o	Jupyter Notebook can be thought of as an enriched text editor, providing local code execution, including display of graphical products of your code.
 o	In our experience, the commands available in the ribbon at the top of the Jupyter Notebook window vary a little across PCs, even when all are running Windows 10. We don’t know the extent of this variation or what it depends on.
 o	Accordingly, you may find some of the commands we suggest in a different dropdown menu and/or labeled a bit differently than what’s in our instructions. Feel free to explore the menus. For example, there may or may not be a “Cell” command in that ribbon. If not, there may be a number of cell commands are under the Run button.
 o	Before starting the Lessons, make a backup copy of all the files we’ve provided. If a Lesson file stops working, you can always start again with a clean file from your backup. Also, in some files, we ask you to alter code, add code, or enter an answer to a question. You may want to retain an original copy that doesn’t have those changes.
+
 •	If you want to exit and later resume where you were in a Jupyter Notebook:
 o	Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
 o	When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell.
 	That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
 •	You’re welcome to edit our code and re-run a cell, for example to plot a different frequency.
 o	But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
+
 •	If your Jupyter Notebook Web page becomes generally or selectively unresponsive, try each of these, in this order:
 1)	Reload the current Web page: hit your browser refresh button
 2)	Click Kernel | Restart Kernel and Run up to Selected Cell [or equivalent in the menus available to you]
