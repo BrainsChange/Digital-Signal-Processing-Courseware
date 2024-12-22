@@ -27,14 +27,13 @@ The authors of this courseware are indebted to Prof. Bruce Carpenter (University
 
 •	If you want to exit and later resume where you were in a Jupyter Notebook:
 
-	o	Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
+-Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
 
-	o	When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell.
-		That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
+-When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell. That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
 
 •	You’re welcome to edit our code and re-run a cell, for example to plot a different frequency.
 
-	o	But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
+-But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
 
 •	If your Jupyter Notebook Web page becomes generally or selectively unresponsive, try each of these, in this order:
 
