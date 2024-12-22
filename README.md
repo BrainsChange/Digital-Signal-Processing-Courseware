@@ -9,7 +9,7 @@ The authors of this courseware are indebted to Prof. Bruce Carpenter (University
 
 
 # Courseware - How to use
-The book is written for an audience that does digital signal processing but that do not have a strong math or engineering background.
+•	The book is written for an audience that does digital signal processing but that do not have a strong math or engineering background.
 
 -For each lesson, be sure to do the modules in order: Basics, Tutorial, Give It a Try, Literacy.
 
