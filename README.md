@@ -38,13 +38,13 @@ This courseware is written for an audience that does digital signal processing b
 
 # Download the Jupter Notebook files
 
-•	From this GitHub page access the courseware files for Lessons 1 to 6
+-From this GitHub page access the courseware files for Lessons 1 to 6
 
-•	You’ll use Jupyter Notebook files running in a Web browser, accessing files on your computer. Consider what Web browser you’ll use. We’ve tested with Firefox and Chrome on Windows 10 and Firefox on MacOS Ventura 13.2.1. If you want to use another browser, test it with our Jupyter Notebook files before the workshop.
+-You’ll use Jupyter Notebook files running in a Web browser, accessing files on your computer. Consider what Web browser you’ll use. We’ve tested with Firefox and Chrome on Windows 10 and Firefox on MacOS Ventura 13.2.1. If you want to use another browser, test it with our Jupyter Notebook files before the workshop.
 
-•	Consider what directory on your computer you want to download the files to.
+-Consider what directory on your computer you want to download the files to.
 
-•	We aren’t aware of a way to set the default directory in Jupyter Notebook so that *.ipynb files load from a directory of your choice. But, after you launch Anaconda | Jupyter Notebook, you’ll be in your Web browser, and you can navigate to that directory within Anaconda to access those files – instructions below.
+-We aren’t aware of a way to set the default directory in Jupyter Notebook so that *.ipynb files load from a directory of your choice. But, after you launch Anaconda | Jupyter Notebook, you’ll be in your Web browser, and you can navigate to that directory within Anaconda to access those files – instructions below.
 
 # Start a Session 
 •	On Windows, clicking Start | Anaconda3 |Jupyter Notebook opens a text box in which it runs commands, then opens a tab in your default Web browser at http://localhost:8888/tree (or similar) showing your directory tree under C:\users\[account name]\Documents\Jupyter, e.g. under C:\Users\gmiller\Documents\Jupyter. Either already you’ve copied our files to that directory, or… 
