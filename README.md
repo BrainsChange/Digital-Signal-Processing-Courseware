@@ -10,15 +10,11 @@ This courseware is written for an audience that does digital signal processing b
 
 -When you load each Jupyter Notebook *.ipynb file, select and run the first code cell (right after the “Setup” text cell). It runs some initialization code that later code will need, so do that before you run later cells.
 
--We wrote the text and Python code (and predecessor Mathematica code) that we’re providing for this workshop in the Jupyter Notebook files, but we didn’t create the Anaconda / Jupyter Notebook world, which provides remarkable, diverse capabilities.
-
 -Jupyter Notebook can be thought of as an enriched text editor, providing local code execution, including display of graphical products of your code.
 
--In our experience, the commands available in the ribbon at the top of the Jupyter Notebook window vary a little across PCs, even when all are running Windows 10. We don’t know the extent of this variation or what it depends on.
+-In our experience, the commands available in the ribbon at the top of the Jupyter Notebook window vary a little across PCs, even when all are running Windows 10. We don’t know the extent of this variation or what it depends on. Accordingly, you may find some of the commands we suggest in a different dropdown menu and/or labeled a bit differently than what’s in our instructions. Feel free to explore the menus. For example, there may or may not be a “Cell” command in that ribbon. If not, there may be a number of cell commands are under the Run button.
 
--Accordingly, you may find some of the commands we suggest in a different dropdown menu and/or labeled a bit differently than what’s in our instructions. Feel free to explore the menus. For example, there may or may not be a “Cell” command in that ribbon. 		If not, there may be a number of cell commands are under the Run button.
-
--Before starting the Lessons, make a backup copy of all the files we’ve provided. If a Lesson file stops working, you can always start again with a clean file from your backup. Also, in some files, we ask you to alter code, add code, or enter an answer to 		a question. You may want to retain an original copy that doesn’t have those changes.
+-Before starting the Lessons, make a backup copy of all the files we’ve provided. If a Lesson file stops working, you can always start again with a clean file from your backup. Also, in some files, we ask you to alter code, add code, or enter an answer to a question. You may want to retain an original copy that doesn’t have those changes.
 
 •	If you want to exit and later resume where you were in a Jupyter Notebook:
 
