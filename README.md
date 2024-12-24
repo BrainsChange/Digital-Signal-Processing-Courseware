@@ -74,8 +74,7 @@ This courseware is written for an audience that does digital signal processing b
 
 -Here and there, we ask you to copy, paste, and/or edit a bit of Python code, for example to change the frequency or magnitude of a sine wave. Again, if you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. Or grab a line of code from an earlier cell that does approximately what you want and edit it so that it does exactly what you want.
 
--For example, to plot an “A” character 90 degrees into the 1 Hz sine wave in the Lesson 1 Literacy notebook section L.5 (this will make sense when you get there), you can copy the nearby line of code: plt.text(1,0,'1 sec',fontsize=15) paste it into the code cell, and edit it to, for example: plt.text(.25,0,'A',fontsize=15)
-- 	Why does changing the argument to .25 get you to 90 degrees? Get going on the workshop materials to find out… (hint: 90 is 25% of 360). 
+-For example, to plot an “A” character 90 degrees into the 1 Hz sine wave in the Lesson 1 Literacy notebook section L.5 (this will make sense when you get there), you can copy the nearby line of code: plt.text(1,0,'1 sec',fontsize=15) paste it into the code cell, and edit it to, for example: plt.text(.25,0,'A',fontsize=15). 
 
 -Each Jupyter Notebook file opens in a Web browser page, with a command ribbon at the top and then a series of cells. Some cells will load as regular text, some as Python code. Each cell can be run separately (even text cells will run, but that just means: re-display as simple text after having opened the file for editing).
 
