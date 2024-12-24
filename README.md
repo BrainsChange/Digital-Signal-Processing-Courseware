@@ -19,7 +19,7 @@ This courseware is written for an audience that does digital signal processing b
 -If you want to exit and later resume where you were in a Jupyter Notebook:
 
 1) Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
-2)When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell. That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
+2) When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell. That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
 3) You’re welcome to edit our code and re-run a cell, for example to plot a different frequency. But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
 
 -If your Jupyter Notebook Web page becomes generally or selectively unresponsive, try each of these, in this order:
@@ -118,7 +118,7 @@ This courseware is written for an audience that does digital signal processing b
 
 -It’s OK close browser the tab, the browser, and/or the Power Shell text box.
 
-###Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.
+**Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.**
 
 The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
 
