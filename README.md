@@ -66,38 +66,38 @@ This courseware is written for an audience that does digital signal processing b
 
 # Basic Navigation in Jupyter Notebook 
 
-- You do need to know how to navigate the Jupyter Notebook user interface. It’s largely self-explanatory, and we intend to provide enough information here to get you going. But feel free to consult the short tutorial at https://learning.anaconda.cloud/get-started-with-anaconda?souce=installation-success.
+-You do need to know how to navigate the Jupyter Notebook user interface. It’s largely self-explanatory, and we intend to provide enough information here to get you going. But feel free to consult the short tutorial at https://learning.anaconda.cloud/get-started-with-anaconda?souce=installation-success.
 
-- Our Jupyter Notebook files use Python code, but you don’t have to know anything about Python or other languages to use them.
+-Our Jupyter Notebook files use Python code, but you don’t have to know anything about Python or other languages to use them.
 
-- Sometimes we ask you to look briefly at a snippet of code. If you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. 
+-Sometimes we ask you to look briefly at a snippet of code. If you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. 
 
-- Here and there, we ask you to copy, paste, and/or edit a bit of Python code, for example to change the frequency or magnitude of a sine wave. Again, if you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. Or grab a line of code from an earlier cell that does approximately what you want and edit it so that it does exactly what you want.
+-Here and there, we ask you to copy, paste, and/or edit a bit of Python code, for example to change the frequency or magnitude of a sine wave. Again, if you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. Or grab a line of code from an earlier cell that does approximately what you want and edit it so that it does exactly what you want.
 
-- For example, to plot an “A” character 90 degrees into the 1 Hz sine wave in the Lesson 1 Literacy notebook section L.5 (this will make sense when you get there), you can copy the nearby line of code: plt.text(1,0,'1 sec',fontsize=15) paste it into the code cell, and edit it to, for example: plt.text(.25,0,'A',fontsize=15)
+-For example, to plot an “A” character 90 degrees into the 1 Hz sine wave in the Lesson 1 Literacy notebook section L.5 (this will make sense when you get there), you can copy the nearby line of code: plt.text(1,0,'1 sec',fontsize=15) paste it into the code cell, and edit it to, for example: plt.text(.25,0,'A',fontsize=15)
 - 	Why does changing the argument to .25 get you to 90 degrees? Get going on the workshop materials to find out… (hint: 90 is 25% of 360). 
 
-- Each Jupyter Notebook file opens in a Web browser page, with a command ribbon at the top and then a series of cells. Some cells will load as regular text, some as Python code. Each cell can be run separately (even text cells will run, but that just means: re-display as simple text after having opened the file for editing).
+-Each Jupyter Notebook file opens in a Web browser page, with a command ribbon at the top and then a series of cells. Some cells will load as regular text, some as Python code. Each cell can be run separately (even text cells will run, but that just means: re-display as simple text after having opened the file for editing).
 
-- Generally, you proceed through the cells in order. You can run a cell by typing shift-Enter.
+-Generally, you proceed through the cells in order. You can run a cell by typing shift-Enter.
 
-- To select a cell, click on it.
+-To select a cell, click on it.
 
-- To edit a cell (whether text or code), double click on the cell.
+-To edit a cell (whether text or code), double click on the cell.
 
-- To get out of edit mode, type shift-Enter or click the ‘run’ button in the menu bar.
-- 
-- In some cells, this will reveal code that presents text.
+-To get out of edit mode, type shift-Enter or click the ‘run’ button in the menu bar.
 
-- You can run a series of cells in order by hitting shift-Enter repeatedly.
+-In some cells, this will reveal code that presents text.
 
-- But you don’t have to run cells in order – you can scroll back to an earlier cell. You can exit the notebook at any time, and you can re-load it and start over, or pick up where you left off, or anywhere else.
+-You can run a series of cells in order by hitting shift-Enter repeatedly.
+
+-But you don’t have to run cells in order – you can scroll back to an earlier cell. You can exit the notebook at any time, and you can re-load it and start over, or pick up where you left off, or anywhere else.
 
 -If you want to resume at a particular place in the file, before you exit you may want to make a note about where you are (e.g., that you finished section DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
 
 -When you re-start it, use ctrl-F to find that section, then in the command ribbon at the top: click on Run | Run All Above Selected Cell. That way, any later code that relies on earlier code having executed already will have run before you more forward.
 
-- When you load a Jupyter notebook file and start working in it anywhere other than at the very  beginning, when you get to the cell you’re going to start with: Before you do anything else, it’s a good idea to:
+-When you load a Jupyter notebook file and start working in it anywhere other than at the very  beginning, when you get to the cell you’re going to start with: Before you do anything else, it’s a good idea to:
 
 1) Select that cell.
 2) In the menu bar at the top of the browser window, click Run | Run All Above Selected Cell, to be sure that variables and other things have been defined. A common problem if you don’t do that is a “NameError” about an undefined variable. If you see that, back up a cell or two, click Run | Run All Above Selected Cell, and proceed to run each cell in order from there.
@@ -107,11 +107,17 @@ This courseware is written for an audience that does digital signal processing b
 1) Click Cell | All Output |Clear
 2) Click Kernel | Restart Kernel and Clear Outputs of All Cells… | Restart
  
-- Reminder: run the first code cell (right after the “Setup” text cell) in of our Jupyter Notebook files. It runs some initialization code that later code will need, so do that before you run later cells.
+-Reminder: run the first code cell (right after the “Setup” text cell) in of our Jupyter Notebook files. It runs some initialization code that later code will need, so do that before you run later cells.
 
-- So be sure to run that initialization cell before you move on.
+-So be sure to run that initialization cell before you move on.
  
-- There are several commands relevant to ending a session under the File option in the menu bar.  
+-There are several commands relevant to ending a session under the File option in the menu bar.  
+
+-Click File | Close and Shut Down Notebook Ctrl+Shift+Q | OK
+
+-Click File | Log Out or Shut Down
+
+-It’s OK close browser the tab, the browser, and/or the Power Shell text box.
 
 ###Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.
 
@@ -119,10 +125,3 @@ The authors of this courseware are indebted to Prof. Bruce Carpenter (University
 
 
 
-
-
-•	Click File | Close and Shut Down Notebook Ctrl+Shift+Q | OK
-
-•	Click File | Log Out or Shut Down
-
-•	It’s OK close browser the tab, the browser, and/or the Power Shell text box.
