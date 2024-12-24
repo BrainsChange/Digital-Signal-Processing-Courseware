@@ -54,15 +54,15 @@ This courseware is written for an audience that does digital signal processing b
 
 1) Click New [upper right] | Terminal (opens a Windows Power Shell text box) | type “cd MyDirectory” (or paste in a text string of your desired directory – ctrl-V or right-click | Paste | Paste)
 2) Then type “jupyter notebook”, which will run the command in that text box, then open a browser tab @ http://localhost:8888/tree (or similar) showing the directory tree under MyDirectory, e.g.: Click New | Terminal | cd MyDirectory
-3) Jupyter Notebook will let you save the currently loaded file with a different filename, but only within the current directory
+3) Jupyter Notebook will let you save the currently loaded file with a different filename, but only within the current directory  
  
-- Navigate to the directory containing the desired *.ipynb Jupyter Notebook file and click on that file open it in another browser window.
+-Navigate to the directory containing the desired *.ipynb Jupyter Notebook file and click on that file open it in another browser window.
 
-- Case of text (upper case or lower case) in directory paths and filenames generally doesn’t matter in Windows but does matter in *nix-derived operating systems such as MacOS and Linux.
+-Case of text (upper case or lower case) in directory paths and filenames generally doesn’t matter in Windows but does matter in *nix-derived operating systems such as MacOS and Linux.
 
-- Avoiding spaces (blanks) in directory names and filenames is highly advisable in some contexts, especially for work at the command line in Windows, MacOS, and Linux.
+-Avoiding spaces (blanks) in directory names and filenames is highly advisable in some contexts, especially for work at the command line in Windows, MacOS, and Linux.
 
-- Browser extensions that you may have installed, such as to enhance security or block ads, might block access even to a local directory. If you have trouble reaching your local directory, consider adjusting relevant settings or moving our files to another directory.
+-Browser extensions that you may have installed, such as to enhance security or block ads, might block access even to a local directory. If you have trouble reaching your local directory, consider adjusting relevant settings or moving our files to another directory.
 
 # Basic Navigation in Jupyter Notebook 
 
