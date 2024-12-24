@@ -16,17 +16,13 @@ This courseware is written for an audience that does digital signal processing b
 
 -Before starting the Lessons, make a backup copy of all the files we’ve provided. If a Lesson file stops working, you can always start again with a clean file from your backup. Also, in some files, we ask you to alter code, add code, or enter an answer to a question. You may want to retain an original copy that doesn’t have those changes.
 
-•	If you want to exit and later resume where you were in a Jupyter Notebook:
+-If you want to exit and later resume where you were in a Jupyter Notebook:
 
--Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
+1) Make a note about where you are before you exit (e.g., that you finished DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
+2)When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell. That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
+3) You’re welcome to edit our code and re-run a cell, for example to plot a different frequency. But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
 
--When you re-start that Jupyter Notebook, use ctrl-F to find that section, select that cell, and in the command ribbon at the top: click on Run | Run All Above Selected Cell. That way, any code that relies on earlier code having been run (executed) will have run before you more forward.
-
-•	You’re welcome to edit our code and re-run a cell, for example to plot a different frequency.
-
--But note that changing the computation or even the value of a variable that’s used later in the file could lead to different outputs than our text narrative assumes.
-
-•	If your Jupyter Notebook Web page becomes generally or selectively unresponsive, try each of these, in this order:
+-If your Jupyter Notebook Web page becomes generally or selectively unresponsive, try each of these, in this order:
 
 1)	Reload the current Web page: hit your browser refresh button
 2)	Click Kernel | Restart Kernel and Run up to Selected Cell [or equivalent in the menus available to you]
