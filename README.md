@@ -138,6 +138,8 @@ The courseware covers the following topics:
 -It’s OK close browser the tab, the browser, and/or the Power Shell text box.
 
 
+
+**Acknowlegements**
 Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu. The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
 
 
