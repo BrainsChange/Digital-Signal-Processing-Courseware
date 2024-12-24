@@ -3,8 +3,15 @@ Authors: J. Christopher Edgar and Gregory A. Miller
 
 # Digital-Signal-Processing-Courseware
 
+## Course Goals and Content
+
+This courseware is written for an audience that does digital signal processing (e.g., people who do neuroscience) but that do not have a strong math or engineering background. The goal of the course is that after you have completed the book you'll have a fairly sophisticated understanding of how to apply several digital signal processing techniques, including better understanding what is really happening when you push certain buttons in packaged neuroimaging software (e.g., filter settings). After completing the book you'll also better understand how to collect neuroimaging data (e.g., data sampling rate).
+
+Each Lesson in the Digital Signal Processing courseware contains four sections: Basics, Tutorial, Give It a Try, and Literacy. The Basics section should be read first, as this section covers the primary topic. The Basics section is followed by the Tutorial section, and this section expands upon what is presented in the Basics. Having completed the Basics and Tutorial sections, you then have the opportunity to more deeply encode what you've learned by completing the Give It a Try Try (providng answers in the electronic document) and the Literacy section (perhaps printing and answering using pen and paper).
+
+
+
 ## Courseware - How to use
-This courseware is written for an audience that does digital signal processing but that do not have a strong math or engineering background.  
 
 -For each lesson, be sure to do the modules in order: Basics, Tutorial, Give It a Try, Literacy.
 
