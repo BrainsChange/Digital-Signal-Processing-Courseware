@@ -9,7 +9,19 @@ This courseware is written for an audience that does digital signal processing (
 
 Each Lesson in the Digital Signal Processing courseware contains four sections: Basics, Tutorial, Give It a Try, and Literacy. The Basics section should be read first, as this section covers the primary topic. The Basics section is followed by the Tutorial section, and this section expands upon what is presented in the Basics. Having completed the Basics and Tutorial sections, you then have the opportunity to more deeply encode what you've learned by completing the Give It a Try Try (providng answers in the electronic document) and the Literacy section (perhaps printing and answering using pen and paper).
 
+The courseware covers the following topics:  
 
+**Lesson 1** Introduction to sine/cosine functions, discussion of time series and spatial data, discussion of amplitude, frequency, and phase, and a section on adding sine waves. There's also a brief introduction to complex numbers and the Euler Identities. Students also read in time and spatial data (grayscale images).
+
+**Lesson 2** Detailed discussion of the Nyquist Theorem and aliasing (time and spatial domain), a section on multiplying sine waves, and a brief discussion of plotting complex numbers and determining the magnitude and phase of complex numbers.
+
+**Lesson 3** This lesson focuses on convolution, and via convolution, filtering. Ideas are explored in the time domain. In this process, students are introduced to high- and low-pass filters and gain functions.
+
+**Lesson 4** Generally the same as Lesson 3, but now examining spatial data. Students use convolution methods to filter grayscale and color images. Normal distributions and random noise are also discussed.
+
+**Lesson 5** This lesson focuses on using sine and cosine to compute the magnitude and phase of activity at different frequencies: time and spatial data. Students also see that magnitude and phase information can be obtained more easily using complex exponentials.
+
+**Lesson 6** The Fourier transform is finally introduced and some of the limitations (and ways to overcomesome of these limitations) of time-frequency transforms examined. Students are also introduced to the idea of filtering using forward and inverse Fourier transforms.
 
 ## Courseware - How to use
 
