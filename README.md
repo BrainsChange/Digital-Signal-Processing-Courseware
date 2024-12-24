@@ -3,11 +3,6 @@ Authors: J. Christopher Edgar and Gregory A. Miller
 
 # Digital-Signal-Processing-Courseware
 
-Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.
-
-The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
-
-
 ## Courseware - How to use
 •	The book is written for an audience that does digital signal processing but that do not have a strong math or engineering background.
 
@@ -126,7 +121,15 @@ The authors of this courseware are indebted to Prof. Bruce Carpenter (University
 
 -So be sure to run that initialization cell before you move on.
  
-•	There are several commands relevant to ending a session under the File option in the menu bar.
+•	There are several commands relevant to ending a session under the File option in the menu bar.  
+
+Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.
+
+The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
+
+
+
+
 
 •	Click File | Close and Shut Down Notebook Ctrl+Shift+Q | OK
 
