@@ -1,7 +1,7 @@
 Digital Signal Processing Courseware: An Introduction (copyright © 2024)  
 Authors: J. Christopher Edgar and Gregory A. Miller
 
-# Digital-Signal-Processing-Courseware[^1]
+# Digital-Signal-Processing-Courseware
 
 ## Courseware - How to use
 This courseware is written for an audience that does digital signal processing but that do not have a strong math or engineering background.  
@@ -119,7 +119,7 @@ This courseware is written for an audience that does digital signal processing b
 -It’s OK close browser the tab, the browser, and/or the Power Shell text box.
 
 
-1. Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu. The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
+Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu. The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
 
 
 
