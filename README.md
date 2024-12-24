@@ -47,73 +47,73 @@ This courseware is written for an audience that does digital signal processing b
 -We aren’t aware of a way to set the default directory in Jupyter Notebook so that *.ipynb files load from a directory of your choice. But, after you launch Anaconda | Jupyter Notebook, you’ll be in your Web browser, and you can navigate to that directory within Anaconda to access those files – instructions below.
 
 # Start a Session 
-•	On Windows, clicking Start | Anaconda3 |Jupyter Notebook opens a text box in which it runs commands, then opens a tab in your default Web browser at http://localhost:8888/tree (or similar) showing your directory tree under C:\users\[account name]\Documents\Jupyter, e.g. under C:\Users\gmiller\Documents\Jupyter. Either already you’ve copied our files to that directory, or… 
 
-•	…change to another directory, previously created, containing the *.ipynb file you want to open, per https://saturncloud.io/blog/jupyter-notebook-change-directory-a-comprehensive-guide/. For example, if you want to work within a directory you call MyDirectory:
+-On Windows, clicking Start | Anaconda3 |Jupyter Notebook opens a text box in which it runs commands, then opens a tab in your default Web browser at http://localhost:8888/tree (or similar) showing your directory tree under C:\users\[account name]\Documents\Jupyter, e.g. under C:\Users\gmiller\Documents\Jupyter. Either already you’ve copied our files to that directory, or… 
 
-	o	Click New [upper right] | Terminal (opens a Windows Power Shell text box) | type “cd MyDirectory” (or paste in a text string of your desired directory – ctrl-V or right-click | Paste | Paste)
-	o	Then type “jupyter notebook”, which will run the command in that text box, then open a browser tab @ http://localhost:8888/tree (or similar) showing the directory tree under MyDirectory, e.g.: Click New | Terminal | cd MyDirectory
-	o	Jupyter Notebook will let you save the currently loaded file with a different filename, but only within the current directory
+-…change to another directory, previously created, containing the *.ipynb file you want to open, per https://saturncloud.io/blog/jupyter-notebook-change-directory-a-comprehensive-guide/. For example, if you want to work within a directory you call MyDirectory:
+
+1) Click New [upper right] | Terminal (opens a Windows Power Shell text box) | type “cd MyDirectory” (or paste in a text string of your desired directory – ctrl-V or right-click | Paste | Paste)
+2) Then type “jupyter notebook”, which will run the command in that text box, then open a browser tab @ http://localhost:8888/tree (or similar) showing the directory tree under MyDirectory, e.g.: Click New | Terminal | cd MyDirectory
+3) Jupyter Notebook will let you save the currently loaded file with a different filename, but only within the current directory
  
-•	Navigate to the directory containing the desired *.ipynb Jupyter Notebook file and click on that file open it in another browser window.
+- Navigate to the directory containing the desired *.ipynb Jupyter Notebook file and click on that file open it in another browser window.
 
-•	Case of text (upper case or lower case) in directory paths and filenames generally doesn’t matter in Windows but does matter in *nix-derived operating systems such as MacOS and Linux.
+- Case of text (upper case or lower case) in directory paths and filenames generally doesn’t matter in Windows but does matter in *nix-derived operating systems such as MacOS and Linux.
 
-•	Avoiding spaces (blanks) in directory names and filenames is highly advisable in some contexts, especially for work at the command line in Windows, MacOS, and Linux.
+- Avoiding spaces (blanks) in directory names and filenames is highly advisable in some contexts, especially for work at the command line in Windows, MacOS, and Linux.
 
-•	Browser extensions that you may have installed, such as to enhance security or block ads, might block access even to a local directory. If you have trouble reaching your local directory, consider adjusting relevant settings or moving our files to another directory.
+- Browser extensions that you may have installed, such as to enhance security or block ads, might block access even to a local directory. If you have trouble reaching your local directory, consider adjusting relevant settings or moving our files to another directory.
 
 # Basic Navigation in Jupyter Notebook 
-•	You do need to know how to navigate the Jupyter Notebook user interface. It’s largely self-explanatory, and we intend to provide enough information here to get you going.
 
--But feel free to consult the short tutorial at https://learning.anaconda.cloud/get-started-with-anaconda?souce=installation-success.
+- You do need to know how to navigate the Jupyter Notebook user interface. It’s largely self-explanatory, and we intend to provide enough information here to get you going. But feel free to consult the short tutorial at https://learning.anaconda.cloud/get-started-with-anaconda?souce=installation-success.
 
-•	Our Jupyter Notebook files use Python code, but you don’t have to know anything about Python or other languages to use them.
+- Our Jupyter Notebook files use Python code, but you don’t have to know anything about Python or other languages to use them.
 
--Sometimes we ask you to look briefly at a snippet of code. If you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. 
+- Sometimes we ask you to look briefly at a snippet of code. If you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. 
 
--Here and there, we ask you to copy, paste, and/or edit a bit of Python code, for example to change the frequency or magnitude of a sine wave. Again, if you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ 		frequency variable or the ‘gain’ magnitude variable. Or grab a line of code from an earlier cell that does approximately what you want and edit it so that it does exactly what you want.
+- Here and there, we ask you to copy, paste, and/or edit a bit of Python code, for example to change the frequency or magnitude of a sine wave. Again, if you’re not familiar with Python, just look for something relevant at the moment, such as the ‘freq’ frequency variable or the ‘gain’ magnitude variable. Or grab a line of code from an earlier cell that does approximately what you want and edit it so that it does exactly what you want.
 
-•	For example, to plot an “A” character 90 degrees into the 1 Hz sine wave in the Lesson 1 Literacy notebook section L.5 (this will make sense when you get there), you can copy the nearby line of code: plt.text(1,0,'1 sec',fontsize=15) paste it into the code cell, and edit it to, for example: plt.text(.25,0,'A',fontsize=15)
- 
-•	Why does changing the argument to .25 get you to 90 degrees? Get going on the workshop materials to find out… (hint: 90 is 25% of 360). 
+- For example, to plot an “A” character 90 degrees into the 1 Hz sine wave in the Lesson 1 Literacy notebook section L.5 (this will make sense when you get there), you can copy the nearby line of code: plt.text(1,0,'1 sec',fontsize=15) paste it into the code cell, and edit it to, for example: plt.text(.25,0,'A',fontsize=15)
+- 	Why does changing the argument to .25 get you to 90 degrees? Get going on the workshop materials to find out… (hint: 90 is 25% of 360). 
 
-•	Each Jupyter Notebook file opens in a Web browser page, with a command ribbon at the top and then a series of cells. Some cells will load as regular text, some as Python code. Each cell can be run separately (even text cells will run, but that just means: re-display as simple text after having opened the file for editing).
+- Each Jupyter Notebook file opens in a Web browser page, with a command ribbon at the top and then a series of cells. Some cells will load as regular text, some as Python code. Each cell can be run separately (even text cells will run, but that just means: re-display as simple text after having opened the file for editing).
 
-•	Generally, you proceed through the cells in order. You can run a cell by typing shift-Enter.
+- Generally, you proceed through the cells in order. You can run a cell by typing shift-Enter.
 
-•	To select a cell, click on it.
+- To select a cell, click on it.
 
-•	To edit a cell (whether text or code), double click on the cell.
+- To edit a cell (whether text or code), double click on the cell.
 
-•	To get out of edit mode, type shift-Enter or click the ‘run’ button in the menu bar.
--In some cells, this will reveal code that presents text.
+- To get out of edit mode, type shift-Enter or click the ‘run’ button in the menu bar.
+- 
+- In some cells, this will reveal code that presents text.
 
-•	You can run a series of cells in order by hitting shift-Enter repeatedly.
+- You can run a series of cells in order by hitting shift-Enter repeatedly.
 
-•	But you don’t have to run cells in order – you can scroll back to an earlier cell. You can exit the notebook at any time, and you can re-load it and start over, or pick up where you left off, or anywhere else.
+- But you don’t have to run cells in order – you can scroll back to an earlier cell. You can exit the notebook at any time, and you can re-load it and start over, or pick up where you left off, or anywhere else.
 
--If you want to resume at a particular place in the file, before you exit you may want to make a note about where you are (e.g., that you finished section DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and 		final aspect of a sine-wave timeseries”).
+-If you want to resume at a particular place in the file, before you exit you may want to make a note about where you are (e.g., that you finished section DSP.01.B1.c, or that you’re ready to tackle the cell with the text “We need to consider a third and final aspect of a sine-wave timeseries”).
 
 -When you re-start it, use ctrl-F to find that section, then in the command ribbon at the top: click on Run | Run All Above Selected Cell. That way, any later code that relies on earlier code having executed already will have run before you more forward.
 
-•	When you load a Jupyter notebook file and start working in it anywhere other than at the very  beginning, when you get to the cell you’re going to start with: Before you do anything else, it’s a good idea to:
+- When you load a Jupyter notebook file and start working in it anywhere other than at the very  beginning, when you get to the cell you’re going to start with: Before you do anything else, it’s a good idea to:
 
--Select that cell.
--In the menu bar at the top of the browser window, click Run | Run All Above Selected Cell, to be sure that variables and other things have been defined. A common problem if you don’t do that is a “NameError” about an undefined variable. If you see that, 		back up a cell or two, click Run | Run All Above Selected Cell, and proceed to run each cell in order from there.
+1) Select that cell.
+2) In the menu bar at the top of the browser window, click Run | Run All Above Selected Cell, to be sure that variables and other things have been defined. A common problem if you don’t do that is a “NameError” about an undefined variable. If you see that, back up a cell or two, click Run | Run All Above Selected Cell, and proceed to run each cell in order from there.
  
-•	We’ve found that the details of how to clear all output or exit vary a little on different PCs. To clear all output using the menu bar, these two alternative procedures worked on different PCs:
+-We’ve found that the details of how to clear all output or exit vary a little on different PCs. To clear all output using the menu bar, these two alternative procedures worked on different PCs:
 
--Click Cell | All Output |Clear
--Click Kernel | Restart Kernel and Clear Outputs of All Cells… | Restart
+1) Click Cell | All Output |Clear
+2) Click Kernel | Restart Kernel and Clear Outputs of All Cells… | Restart
  
-•	Reminder: run the first code cell (right after the “Setup” text cell) in of our Jupyter Notebook files. It runs some initialization code that later code will need, so do that before you run later cells.
+- Reminder: run the first code cell (right after the “Setup” text cell) in of our Jupyter Notebook files. It runs some initialization code that later code will need, so do that before you run later cells.
 
--So be sure to run that initialization cell before you move on.
+- So be sure to run that initialization cell before you move on.
  
-•	There are several commands relevant to ending a session under the File option in the menu bar.  
+- There are several commands relevant to ending a session under the File option in the menu bar.  
 
-Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.
+###Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.
 
 The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
 
