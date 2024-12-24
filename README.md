@@ -1,16 +1,14 @@
-#### Digital Signal Processing Courseware: An Introduction (copyright © 2024)
-## Authors: J. Christopher Edgar and Gregory A. Miller
+Digital Signal Processing Courseware: An Introduction (copyright © 2024)  
+Authors: J. Christopher Edgar and Gregory A. Miller
 
 # Digital-Signal-Processing-Courseware
-
-# <font color=red>DSP.01 Frequency, Amplitude, and Phase</font>
 
 Originally written in Mathematica by J. Christopher Edgar. Conversion to Jupyter Notebook by Song Liu.
 
 The authors of this courseware are indebted to Prof. Bruce Carpenter (University of Illinois Urbana-Champaign). Bruce inspired the creation of this courseware, he consulted with the authors as this courseware was being developed, and he provided the original version of the code and text for several sections of this courseware (e.g. the section on complex numbers and the section on normal distributions). 
 
 
-# Courseware - How to use
+## Courseware - How to use
 •	The book is written for an audience that does digital signal processing but that do not have a strong math or engineering background.
 
 -For each lesson, be sure to do the modules in order: Basics, Tutorial, Give It a Try, Literacy.
