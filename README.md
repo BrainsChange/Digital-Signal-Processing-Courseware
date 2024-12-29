@@ -21,7 +21,7 @@ The courseware covers the following topics:
 
 **Lesson 5** This lesson focuses on using sine and cosine to compute the magnitude and phase of activity at different frequencies: time and spatial data. Students also see that magnitude and phase information can be obtained more easily using complex exponentials.
 
-**Lesson 6** The Fourier transform is finally introduced and some of the limitations (and ways to overcomesome of these limitations) of time-frequency transforms examined. Students are also introduced to the idea of filtering using forward and inverse Fourier transforms.
+**Lesson 6** The Fourier transform is finally introduced and some of the limitations (and ways to overcome some of these limitations) of time-frequency transforms examined. Students are also introduced to the idea of filtering using forward and inverse Fourier transforms.
 
 ## Courseware - How to use
 
