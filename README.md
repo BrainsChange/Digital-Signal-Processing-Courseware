@@ -1,7 +1,7 @@
 Digital Signal Processing Courseware: An Introduction (copyright © 2024)  
 Authors: J. Christopher Edgar and Gregory A. Miller
 
-# Digital-Signal-Processing-Courseware
+# Digital Signal Processing Courseware
 
 ## Course Goals and Content
 
