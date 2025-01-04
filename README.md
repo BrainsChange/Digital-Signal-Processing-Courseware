@@ -131,11 +131,11 @@ The courseware covers the following topics:
  
 -There are several commands relevant to ending a session under the File option in the menu bar.  
 
--Click File | Close and Shut Down Notebook Ctrl+Shift+Q | OK
+    -Click File | Close and Shut Down Notebook Ctrl+Shift+Q | OK
 
--Click File | Log Out or Shut Down
+    -Click File | Log Out or Shut Down
 
--It’s OK close browser the tab, the browser, and/or the Power Shell text box. 
+    -It’s OK close browser the tab, the browser, and/or the Power Shell text box. 
 
 ## Give It a Try and Literacy Sheet Answer Keys
 Request answer keys for Give It a Try and Literacy sections by emailing J. Christopher Edgar at jchristopheredgar@gmail.com
