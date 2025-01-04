@@ -57,7 +57,7 @@ The courseware covers the following topics:
 
 # Download the Jupter Notebook files
 
--From this GitHub page, access the courseware files (*.ipynb) for Lessons 1 to 6.
+-From this GitHub page, access the courseware files (*.ipynb) for Lessons 1 to 6 and the .jpg and .txt files in the FilestoLoad directory.
 
 -You’ll use Jupyter Notebook files running in a Web browser, accessing files on your computer. Consider what Web browser you’ll use. We’ve tested with Firefox and Chrome on Windows 10 and Firefox on MacOS Ventura 13.2.1. If you want to use another browser, test it with our Jupyter Notebook files before the workshop.
 
