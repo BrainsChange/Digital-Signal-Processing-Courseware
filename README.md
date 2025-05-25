@@ -141,6 +141,8 @@ The courseware covers the following topics:
 Request answer keys for Give It a Try and Literacy sections by emailing J. Christopher Edgar at jchristopheredgar@gmail.com
 
 ## Referencing this work
+If you use this code in your project, please cite:
+
 Edgar, J.C., & Miller, G.A. (2024). Digital Signal Processing Courseware: An Introduction. 
 https://github.com/BrainsChange/Digital-Signal-Processing-Courseware
 
