@@ -1,1 +1,1 @@
-Zipped folder contains all DSP Lesson folders and all needed image and text files.
+Zipped folder - contains all 6 DSP Lesson folders and all image and text files.
